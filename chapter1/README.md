@@ -24,3 +24,16 @@ img_gry = cv2.cvtColor(im_cv, cv2.COLOR_BGR2GRAY)
 |:---:|:---:|
 |![](lenna.png)|![](section1/section_2_output.png)|
 
+## Section3:Binarization
+Binarize color images (convert to black and white).  
+
+※The following is an example using cv2.THRESH_BINARY  
+```python
+img_thresh = cv2.threshold(im_cv, 128, 255, cv2.THRESH_BINARY)
+```
+
+|Input|Output|
+|:---:|:---:|
+|![](lenna.png)|![](section1/section_3_output.png)|
+
+
