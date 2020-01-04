@@ -36,4 +36,18 @@ img_thresh = cv2.threshold(im_cv, 128, 255, cv2.THRESH_BINARY)
 |:---:|:---:|
 |![](lenna.png)|![](section1/section_3_output.png)|
 
+## Section4:Otsu binarization
+
+Adaptive binarization processing.  
+https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_thresholding/py_thresholding.html#otsus-binarization
+
+※The following is an example using cv2.THRESH_OTSU  
+```python
+img_thresh = cv2.threshold(im_cv, 0, 255, cv2.THRESH_BINARY+cv2.THRESH_OTSU)
+```
+
+|Input|Output|
+|:---:|:---:|
+|![](lenna.png)|![](section1/section_4_output.png)|
+
 
