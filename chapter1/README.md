@@ -22,7 +22,7 @@ img_gry = cv2.cvtColor(im_cv, cv2.COLOR_BGR2GRAY)
 
 |Input|Output|
 |:---:|:---:|
-|![](lenna.png)|![](section1/section_2_output.png)|
+|![](lenna.png)|![](section2/section_2_output.png)|
 
 ## Section3:Binarization
 Binarize color images (convert to black and white).  
@@ -34,7 +34,7 @@ img_thresh = cv2.threshold(im_cv, 128, 255, cv2.THRESH_BINARY)
 
 |Input|Output|
 |:---:|:---:|
-|![](lenna.png)|![](section1/section_3_output.png)|
+|![](lenna.png)|![](section3/section_3_output.png)|
 
 ## Section4:Otsu binarization
 
@@ -48,6 +48,6 @@ img_thresh = cv2.threshold(im_cv, 0, 255, cv2.THRESH_BINARY+cv2.THRESH_OTSU)
 
 |Input|Output|
 |:---:|:---:|
-|![](lenna.png)|![](section1/section_4_output.png)|
+|![](lenna.png)|![](section4/section_4_output.png)|
 
 
