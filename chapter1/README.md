@@ -50,4 +50,17 @@ img_thresh = cv2.threshold(im_cv, 0, 255, cv2.THRESH_BINARY+cv2.THRESH_OTSU)
 |:---:|:---:|
 |![](lenna.png)|![](section4/section_4_output.png)|
 
+## Section5:HSV conversion
+
+Convert a Color image (RGB) to an image in HSV color space.
+
+※The following is an example using cv2.COLOR_BGR2HSV  
+```python
+hsv = cv2.cvtColor(im_cv, cv2.COLOR_BGR2HSV)
+```
+
+|Input|Output|
+|:---:|:---:|
+|![](lenna.png)|![](section5/section_5_output.png)|
+
 
