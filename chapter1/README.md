@@ -63,4 +63,20 @@ hsv = cv2.cvtColor(im_cv, cv2.COLOR_BGR2HSV)
 |:---:|:---:|
 |![](lenna.png)|![](section5/section_5_output.png)|
 
+## Section6:Color reduction processing
+
+Color reduction processing for Color images. This is quantization.
+
+※Each value is defined as follows.
+```python
+val = {  32  (  0 <= val <  64)
+         96  ( 64 <= val < 128)
+        160  (128 <= val < 192)
+        224  (192 <= val < 256)
+```
+
+|Input|Output|
+|:---:|:---:|
+|![](lenna.png)|![](section6/section_6_output.png)|
+
 
